@@ -1,3 +1,4 @@
+# install depedencies
 import os
 import requests
 from datetime import datetime
@@ -8,7 +9,7 @@ BRANCH = 'main'  # or 'gh-pages' if you use a custom branch for GitHub Pages
 PATH = '_posts/Blog.md'  # Path within your repository where blog posts are stored
 TOKEN = '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'  # Your GitHub Personal Access Token
 EDITOR = 'code'  # Your preferred editor command (e.g., 'code' for VS Code, 'subl' for Sublime Text)
-
+#template
 POST_TEMPLATE = """---
 layout: post
 title:  "{}"
